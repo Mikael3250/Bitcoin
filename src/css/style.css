@@ -1,0 +1,115 @@
+/* Estilos gerais */
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do header */
+  header {
+    background-color:yellow;
+    color: #131313;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  header .logo {
+    max-width: 32px;
+  }
+
+   /* botão*/
+
+   .botao-sobre {
+    background-color: #131313;
+    color: #fbff00;
+    border: 2px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+   }
+
+   .botao-sobre:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+   }
+
+   /* carrossel */
+   .carousel {
+    background-color: #131313;
+    padding: 10px;
+   }
+
+   .carousel .carousel-ajuste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .carousel .imagem-carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    max-height: 95%;
+   }
+    .imagem-carrossel {
+    border-radius: 10px;
+   }
+  /* Estilos da seção de cards */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+  }
+  .card {
+    width: 300px;
+    height: 480px;
+    background-color: #b8b8b8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 16px #dfe205;
+    overflow: auto;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos do footer */
+  footer {
+    background-color: yellow;
+    color: #131313;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  footer a {
+    color: #131313;
+  }
+
+
+
